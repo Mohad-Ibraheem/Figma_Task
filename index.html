@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zwara - Food Delivery</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo"><img src="img/Group 119118.png" alt=""></div>
+        <!-- Desktop Nav -->
+        <nav>
+            <a href="#" class="nav-tab"> <i class="fa-regular fa-gem fa-sm"></i> Influencer</a>
+            <a href="#" class="nav-tab"> <i class="fa-regular fa-heart fa-sm"></i> Favourite</a>
+            <a href="#" class="nav-tab"> <i class="fa-solid fa-cart-shopping fa-sm"></i> Cart</a>
+            <a href="#" class="nav-tab"> <i class="fa-solid fa-globe fa-sm"></i> العربية</a>
+            <a href="#" class="btn"> <i class="fa-regular fa-circle-user"></i> Sign up / Log in</a>
+        </nav>
+
+        <!-- Hamburger -->
+        <div class="hamburger" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <!-- Mobile Nav -->
+        <div class="mobile-nav" id="mobileNav">
+            <a href="#">Influencer</a>
+            <a href="#">Favourite</a>
+            <a href="#">Cart</a>
+            <a href="#">العربية</a>
+            <a href="#" class="btn">Sign up / Log in</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Order delicious food from your <br> favorite restaurants.</h1>
+            <div class="search-bar">
+                <div class="nav-abs">
+                    <input class="src-btn1" type="text" placeholder="Kuwait City, Kuwait">
+               <div class="location-i">
+                 <i class="fa-solid fa-location-dot"></i>
+               </div>
+                </div>
+                <div class="nav-abs">
+                    <input class="src-btn2" type="text" placeholder="Search restaurant">
+                <div class="location-i">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Left Image -->
+        <img src="img/hero-img-1.png" alt="Food Left" class="food-left">
+
+        <!-- Right Image -->
+        <img src="img/hero-img-2.png" alt="Food Right" class="food-right">
+    </section>
+
+    <section class="slid-1">
+        <div class="slid-text">
+            <h5>Welcome! Let’s Sugar Up!</h5>
+        </div>
+
+        <div class="slid-content">
+            <div class="slid-img">
+                <img src="img/wlc-16.png" alt="">
+            </div>
+            <div class="slid-img">
+                <img src="img/wlc-2.png" alt="">
+            </div>
+            <div class="slid-img">
+                <img src="img/wlc-3.png" alt="">
+            </div>
+            <div class="slid-img">
+                <img src="img/wlc-4.png" alt="">
+            </div>
+            <div class="slid-img">
+                <img src="img/wlc-5.png" alt="">
+            </div>
+            <div class="slid-img">
+                <img src="img/wlc-6.png" alt="">
+            </div>
+            <div class="slid-img">
+                <img src="img/wlc-7.png" alt="">
+            </div>
+            <div class="slid-img">
+                <img src="img/wlc-8.png" alt="">
+            </div>
+            <div class="slid-img">
+                <img src="img/wlc-9.png" alt="">
+            </div>
+            <div class="slid-img">
+                <img src="img/wlc-10.png" alt="">
+            </div>
+            <div class="slid-img">
+                <img src="img/wlc-11.png" alt="">
+            </div>
+            <div class="slid-img">
+                <img src="img/wlc-5.png" alt="">
+            </div>
+            <div class="slid-img">
+                <img src="img/wlc-8.png" alt="">
+            </div>
+            <div class="slid-img">
+                <img src="img/wlc-10.png" alt="">
+            </div>
+            <div class="slid-img">
+                <img src="img/wlc-14.png" alt="">
+            </div>
+            <div class="slid-img">
+                <img src="img/wlc-16.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="frame">
+        <div class="frame-content">
+            <div class="frame-img">
+                <img src="img/Frame-1 (1).png" alt="">
+            </div>
+            <div class="frame-img">
+                <img src="img/Frame-1 (2).png" alt="">
+            </div>
+            <div class="frame-img">
+                <img src="img/Frame-1 (3).png" alt="">
+            </div>
+            <div class="frame-img">
+                <img src="img/Frame-1 (4).png" alt="">
+            </div>
+            <div class="frame-img">
+                <img src="img/Frame-1 (5).png" alt="">
+            </div>
+            <div class="frame-img">
+                <img src="img/Frame-1 (6).png" alt="">
+            </div>
+
+        </div>
+
+        <div class="group-content">
+            <div class="group-img">
+                <img src="img/Group 1 (1).png" alt="">
+            </div>
+            <div class="group-img">
+                <img src="img/Group 1 (2).png" alt="">
+            </div>
+            <div class="group-img">
+                <img src="img/Group 1 (3).png" alt="">
+            </div>
+            <div class="group-img">
+                <img src="img/Group 1 (4).png" alt="">
+            </div>
+            <div class="group-img">
+                <img src="img/Group 1 (5).png" alt="">
+            </div>
+            <div class="group-img">
+                <img src="img/Group 1 (6).png" alt="">
+            </div>
+            <div class="group-img">
+                <img src="img/Group 1 (7).png" alt="">
+            </div>
+            <div class="group-img">
+                <img src="img/Group 1 (8).png" alt="">
+            </div>
+            <div class="group-img">
+                <img src="img/Group 1 (9).png" alt="">
+            </div>
+            <div class="group-img">
+                <img src="img/Group 1 (10).png" alt="">
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <section class="card-section">
+        <div>
+            <h3>Top Restaurants Near You</h3>
+        </div>
+        <div class="card-container">
+            <div class="card">
+
+                <div>
+                    <img src="img/card-img-1.png" alt="">
+                    <div class="abs-img">
+                        <img src="img/image 6.png" alt="">
+                    </div>
+                    <div class="wishlist">
+                        <img src="img/Wishlist.png" alt="">
+                    </div>
+                </div>
+
+                <div class="card-body">
+                    <div class="star-flex">
+                        <div>
+                            <h5 class="card-title">Feeling Sugar</h5>
+                        </div>
+                        <div class="card-star">
+                            <p>4.5 <i class="fa-solid fa-star"></i></p>
+                        </div>
+                    </div>
+                    <p class="card-text">Chinese, Mongolian, Noodles, Soup
+                        <br> <span class="iso">24-34 min 1.4km <img src="img/Isolation_Mode.png" alt=""> KD 1.00</span>
+                    </p>
+                    <div>
+                        <button class="card-btn">40% off on orders above KD 4.00</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+
+                <div>
+                    <img src="img/card-img-2.png" alt="">
+                    <div class="abs-img">
+                        <img src="img/image-7.png" alt="">
+                    </div>
+                    <div class="wishlist">
+                        <img src="img/Wishlist.png" alt="">
+                    </div>
+                    <div class="close-ord">
+                        <p>Closed</p>
+                        <button>PREORDER FOR LATER</button>
+                    </div>
+                </div>
+
+                <div class="card-body">
+                    <div class="star-flex">
+                        <div>
+                            <h5 class="card-title">The Bakery Blere</h5>
+                        </div>
+                        <div class="card-star">
+                            <p>4.5 <i class="fa-solid fa-star"></i></p>
+                        </div>
+                    </div>
+                    <p class="card-text">Chinese, Mongolian, Noodles, Soup
+                        <br> <span class="iso">24-34 min 1.4km <img src="img/Isolation_Mode.png" alt=""> KD 1.00</span>
+                    </p>
+                    <div>
+                        <button class="card-btn">40% off on orders above KD 4.00</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+
+                <div>
+                    <img src="img/card-img-3.png" alt="">
+                    <div class="abs-img">
+                        <img src="img/image-8.png" alt="">
+                    </div>
+                    <div class="wishlist">
+                        <img src="img/Wishlist.png" alt="">
+                    </div>
+                </div>
+
+                <div class="card-body">
+                    <div class="star-flex">
+                        <div>
+                            <h5 class="card-title">Feeling Sugar</h5>
+                        </div>
+                        <div class="card-star">
+                            <p>4.5 <i class="fa-solid fa-star"></i></p>
+                        </div>
+                    </div>
+                    <p class="card-text">Chinese, Mongolian, Noodles, Soup
+                        <br> <span class="iso">24-34 min 1.4km <img src="img/Isolation_Mode.png" alt=""> KD 1.00</span>
+                    </p>
+                    <div>
+                        <button class="card-btn">40% off on orders above KD 4.00</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+
+                <div>
+                    <img src="img/card-img-4.png" alt="">
+                    <div class="abs-img">
+                        <img src="img/image-9.png" alt="">
+                    </div>
+                    <div class="wishlist">
+                        <img src="img/Wishlist.png" alt="">
+                    </div>
+                </div>
+
+                <div class="card-body">
+                    <div class="star-flex">
+                        <div>
+                            <h5 class="card-title">Ookie Cookie</h5>
+                        </div>
+                        <div class="card-star">
+                            <p>4.5 <i class="fa-solid fa-star"></i></p>
+                        </div>
+                    </div>
+                    <p class="card-text">Chinese, Mongolian, Noodles, Soup
+                        <br> <span class="iso">24-34 min 1.4km <img src="img/Isolation_Mode.png" alt=""> KD 1.00</span>
+                    </p>
+                    <div>
+                        <button class="card-btn">40% off on orders above KD 4.00</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="dice">
+        <div class="dice-container">
+            <div class="dice-img">
+                <img src="img/FB 1.png" alt="">
+            </div>
+            <div class="dice-img">
+                <img src="img/FB 2.png" alt="">
+            </div>
+            <div class="dice-img">
+                <img src="img/FB 3.png" alt="">
+            </div>
+            <div class="dice-img">
+                <img src="img/FB 4.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="influencers">
+        <h3>
+            Our Influencers
+        </h3>
+        <div class="our-inlfu">
+            <div class="influencer-img">
+                <img src="img/Influencer.png" alt="">
+            </div>
+            <div class="influencer-img">
+                <img src="img/Influencer (1).png" alt="">
+            </div>
+            <div class="influencer-img">
+                <img src="img/Influencer (2).png" alt="">
+            </div>
+            <div class="influencer-img">
+                <img src="img/Influencer (3).png" alt="">
+            </div>
+            <div class="influencer-img">
+                <img src="img/Influencer (4).png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="card-section">
+        <div>
+            <h3>Picked For You</h3>
+        </div>
+        <div class="card-container">
+            <div class="card">
+
+                <div>
+                    <img src="img/card-img-1.png" alt="">
+                    <div class="abs-img">
+                        <img src="img/image 6.png" alt="">
+                    </div>
+                    <div class="wishlist">
+                        <img src="img/Wishlist.png" alt="">
+                    </div>
+                </div>
+
+                <div class="card-body">
+                    <div class="star-flex">
+                        <div>
+                            <h5 class="card-title">Feeling Sugar</h5>
+                        </div>
+                        <div class="card-star">
+                            <p>4.5 <i class="fa-solid fa-star"></i></p>
+                        </div>
+                    </div>
+                    <p class="card-text">Chinese, Mongolian, Noodles, Soup
+                        <br> <span class="iso">24-34 min 1.4km <img src="img/Isolation_Mode.png" alt=""> KD 1.00</span>
+                    </p>
+                    <div>
+                        <button class="card-btn">40% off on orders above KD 4.00</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+
+                <div>
+                    <img src="img/card-img-2.png" alt="">
+                    <div class="abs-img">
+                        <img src="img/image-7.png" alt="">
+                    </div>
+                    <div class="wishlist">
+                        <img src="img/Wishlist.png" alt="">
+                    </div>
+                    <!-- <div class="close-ord">
+                        <p>Closed</p>
+                        <button>PREORDER FOR LATER</button>
+                    </div> -->
+                </div>
+
+                <div class="card-body">
+                    <div class="star-flex">
+                        <div>
+                            <h5 class="card-title">The Bakery Blere</h5>
+                        </div>
+                        <div class="card-star">
+                            <p>4.5 <i class="fa-solid fa-star"></i></p>
+                        </div>
+                    </div>
+                    <p class="card-text">Chinese, Mongolian, Noodles, Soup
+                        <br> <span class="iso">24-34 min 1.4km <img src="img/Isolation_Mode.png" alt=""> KD 1.00</span>
+                    </p>
+                    <div>
+                        <button class="card-btn">40% off on orders above KD 4.00</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+
+                <div>
+                    <img src="img/card-img-3.png" alt="">
+                    <div class="abs-img">
+                        <img src="img/image-8.png" alt="">
+                    </div>
+                    <div class="wishlist">
+                        <img src="img/Wishlist.png" alt="">
+                    </div>
+                </div>
+
+                <div class="card-body">
+                    <div class="star-flex">
+                        <div>
+                            <h5 class="card-title">Feeling Sugar</h5>
+                        </div>
+                        <div class="card-star">
+                            <p>4.5 <i class="fa-solid fa-star"></i></p>
+                        </div>
+                    </div>
+                    <p class="card-text">Chinese, Mongolian, Noodles, Soup
+                        <br> <span class="iso">24-34 min 1.4km <img src="img/Isolation_Mode.png" alt=""> KD 1.00</span>
+                    </p>
+                    <div>
+                        <button class="card-btn">40% off on orders above KD 4.00</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+
+                <div>
+                    <img src="img/card-img-4.png" alt="">
+                    <div class="abs-img">
+                        <img src="img/image-9.png" alt="">
+                    </div>
+                    <div class="wishlist">
+                        <img src="img/Wishlist.png" alt="">
+                    </div>
+                </div>
+
+                <div class="card-body">
+                    <div class="star-flex">
+                        <div>
+                            <h5 class="card-title">Ookie Cookie</h5>
+                        </div>
+                        <div class="card-star">
+                            <p>4.5 <i class="fa-solid fa-star"></i></p>
+                        </div>
+                    </div>
+                    <p class="card-text">Chinese, Mongolian, Noodles, Soup
+                        <br> <span class="iso">24-34 min 1.4km <img src="img/Isolation_Mode.png" alt=""> KD 1.00</span>
+                    </p>
+                    <div>
+                        <button class="card-btn">40% off on orders above KD 4.00</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="deal">
+        <div>
+            <h3>Chocolate Lovers</h3>
+        </div>
+        <div class="card-container">
+            <div class="card">
+
+                <div>
+                    <img src="img/Chocolate-1.png" alt="">
+                    <div class="abs-img">
+                        <img src="img/image_6734413329833.png" alt="">
+                    </div>
+                    <div class="wishlist">
+                        <img src="img/Wishlist.png" alt="">
+                    </div>
+                    <div class="discount-btn">
+
+                        <button>40% Discount</button>
+                    </div>
+                </div>
+
+                <div class="card-body">
+                    <div class="star-flex">
+                        <div>
+                            <h5 class="card-title">OYO</h5>
+                        </div>
+                        <div class="card-star">
+                            <p>4.5 <i class="fa-solid fa-star"></i></p>
+                        </div>
+                    </div>
+                    <p class="card-text">Chinese, Mongolian, Noodles, Soup
+                        <br> <span class="iso">24-34 min 1.4km <img src="img/Isolation_Mode.png" alt=""> KD 1.00</span>
+                    </p>
+                    <!-- <div>
+                        <button class="card-btn">40% off on orders above KD 4.00</button>
+                    </div> -->
+                </div>
+            </div>
+            <div class="card">
+
+                <div>
+                    <img src="img/Chocolate-3.png" alt="">
+                    <div class="abs-img">
+                        <img src="img/image_67332772e5227.png" alt="">
+                    </div>
+                    <div class="wishlist">
+                        <img src="img/Wishlist.png" alt="">
+                    </div>
+                    <div class="discount-btn">
+
+                        <button>40% Discount</button>
+                    </div>
+                </div>
+
+                <div class="card-body">
+                    <div class="star-flex">
+                        <div>
+                            <h5 class="card-title">The Bakery Blere</h5>
+                        </div>
+                        <div class="card-star">
+                            <p>4.5 <i class="fa-solid fa-star"></i></p>
+                        </div>
+                    </div>
+                    <p class="card-text">Chinese, Mongolian, Noodles, Soup
+                        <br> <span class="iso">24-34 min 1.4km <img src="img/Isolation_Mode.png" alt=""> KD 1.00</span>
+                    </p>
+                    <!-- <div>
+                        <button class="card-btn">40% off on orders above KD 4.00</button>
+                    </div> -->
+                </div>
+            </div>
+            <div class="card">
+
+                <div>
+                    <img src="img/Chocolate-2.png" alt="">
+                    <div class="abs-img">
+                        <img src="img/image-9.png" alt="">
+                    </div>
+                    <div class="wishlist">
+                        <img src="img/Wishlist.png" alt="">
+                    </div>
+                    <div class="discount-btn">
+
+                        <button>40% Discount</button>
+                    </div>
+                </div>
+
+                <div class="card-body">
+                    <div class="star-flex">
+                        <div>
+                            <h5 class="card-title">Feeling Sugar</h5>
+                        </div>
+                        <div class="card-star">
+                            <p>4.5 <i class="fa-solid fa-star"></i></p>
+                        </div>
+                    </div>
+                    <p class="card-text">Chinese, Mongolian, Noodles, Soup
+                        <br> <span class="iso">24-34 min 1.4km <img src="img/Isolation_Mode.png" alt=""> KD 1.00</span>
+                    </p>
+                    <!-- <div>
+                        <button class="card-btn">40% off on orders above KD 4.00</button>
+                    </div> -->
+                </div>
+            </div>
+            <div class="card">
+
+                <div>
+                    <img src="img/Chocolate-1.png" alt="">
+                    <div class="abs-img">
+                        <img src="img/image-8.png" alt="">
+                    </div>
+                    <div class="wishlist">
+                        <img src="img/Wishlist.png" alt="">
+                    </div>
+                    <div class="discount-btn">
+
+                        <button>40% Discount</button>
+                    </div>
+                </div>
+
+                <div class="card-body">
+                    <div class="star-flex">
+                        <div>
+                            <h5 class="card-title">Ookie Cookie</h5>
+                        </div>
+                        <div class="card-star">
+                            <p>4.5 <i class="fa-solid fa-star"></i></p>
+                        </div>
+                    </div>
+                    <p class="card-text">Chinese, Mongolian, Noodles, Soup
+                        <br> <span class="iso">24-34 min 1.4km <img src="img/Isolation_Mode.png" alt=""> KD 1.00</span>
+                    </p>
+                    <!-- <div>
+                        <button class="card-btn">40% off on orders above KD 4.00</button>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="card-section">
+        <div>
+            <h3>Delicious Deals</h3>
+        </div>
+        <div class="card-container">
+            <div class="card">
+
+                <div>
+                    <img src="img/card-img-1.png" alt="">
+                    <div class="abs-img">
+                        <img src="img/image 6.png" alt="">
+                    </div>
+                    <div class="wishlist">
+                        <img src="img/Wishlist.png" alt="">
+                    </div>
+                </div>
+
+                <div class="card-body">
+                    <div class="star-flex">
+                        <div>
+                            <h5 class="card-title">Feeling Sugar</h5>
+                        </div>
+                        <div class="card-star">
+                            <p>4.5 <i class="fa-solid fa-star"></i></p>
+                        </div>
+                    </div>
+                    <p class="card-text">Chinese, Mongolian, Noodles, Soup
+                        <br> <span class="iso">24-34 min 1.4km <img src="img/Isolation_Mode.png" alt=""> KD 1.00</span>
+                    </p>
+                    <div>
+                        <button class="card-btn">40% off on orders above KD 4.00</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+
+                <div>
+                    <img src="img/card-img-2.png" alt="">
+                    <div class="abs-img">
+                        <img src="img/image-7.png" alt="">
+                    </div>
+                    <div class="wishlist">
+                        <img src="img/Wishlist.png" alt="">
+                    </div>
+                    <!-- <div class="close-ord">
+                        <p>Closed</p>
+                        <button>PREORDER FOR LATER</button>
+                    </div> -->
+                </div>
+
+                <div class="card-body">
+                    <div class="star-flex">
+                        <div>
+                            <h5 class="card-title">The Bakery Blere</h5>
+                        </div>
+                        <div class="card-star">
+                            <p>4.5 <i class="fa-solid fa-star"></i></p>
+                        </div>
+                    </div>
+                    <p class="card-text">Chinese, Mongolian, Noodles, Soup
+                        <br> <span class="iso">24-34 min 1.4km <img src="img/Isolation_Mode.png" alt=""> KD 1.00</span>
+                    </p>
+                    <div>
+                        <button class="card-btn">40% off on orders above KD 4.00</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+
+                <div>
+                    <img src="img/card-img-3.png" alt="">
+                    <div class="abs-img">
+                        <img src="img/image-8.png" alt="">
+                    </div>
+                    <div class="wishlist">
+                        <img src="img/Wishlist.png" alt="">
+                    </div>
+                </div>
+
+                <div class="card-body">
+                    <div class="star-flex">
+                        <div>
+                            <h5 class="card-title">Feeling Sugar</h5>
+                        </div>
+                        <div class="card-star">
+                            <p>4.5 <i class="fa-solid fa-star"></i></p>
+                        </div>
+                    </div>
+                    <p class="card-text">Chinese, Mongolian, Noodles, Soup
+                        <br> <span class="iso">24-34 min 1.4km <img src="img/Isolation_Mode.png" alt=""> KD 1.00</span>
+                    </p>
+                    <div>
+                        <button class="card-btn">40% off on orders above KD 4.00</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+
+                <div>
+                    <img src="img/card-img-4.png" alt="">
+                    <div class="abs-img">
+                        <img src="img/image-9.png" alt="">
+                    </div>
+                    <div class="wishlist">
+                        <img src="img/Wishlist.png" alt="">
+                    </div>
+                </div>
+
+                <div class="card-body">
+                    <div class="star-flex">
+                        <div>
+                            <h5 class="card-title">Ookie Cookie</h5>
+                        </div>
+                        <div class="card-star">
+                            <p>4.5 <i class="fa-solid fa-star"></i></p>
+                        </div>
+                    </div>
+                    <p class="card-text">Chinese, Mongolian, Noodles, Soup
+                        <br> <span class="iso">24-34 min 1.4km <img src="img/Isolation_Mode.png" alt=""> KD 1.00</span>
+                    </p>
+                    <div>
+                        <button class="card-btn">40% off on orders above KD 4.00</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="mobile-section">
+        <div class="mobile-container">
+            <div class="mobile-content">
+                <h4>Mobile App</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, porro dolorem delectus recusandae quia
+                    laboriosam a velit ab placeat iste.</p>
+                <div class="gog-ip">
+                    <img class="iphone" src="img/download-application-button-apple-app-store-free-vector 1 1.png"
+                        alt="">
+                    <img class="google" src="img/google-play-download-android-app-logo-svgrepo-com 1.png" alt="">
+                </div>
+            </div>
+            <div class="mobile-image">
+                <img class="mobile" src="img/mobile.png" alt="">
+                <img class="z-image" src="img/mob-logo.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="tabs">
+                <div class="popular">
+                    <h5>POPULAR</h5>
+                    <ul>
+                        <li>Healthy</li>
+                        <li>Milk Shake</li>
+                        <li>Cheesecake</li>
+                        <li>Frozen Yoghurt</li>
+                        <li>Waffle</li>
+                        <li>Coffee</li>
+                        <li>Arabic Sweet</li>
+                    </ul>
+                </div>
+                <div class="explore">
+                    <h5>EXPLORE</h5>
+                    <ul>
+                        <li>Influencer</li>
+                        <li>Offers</li>
+                        <li>Newly Added</li>
+                        <li>Delivery</li>
+                        <li>Trends</li>
+                        <li>Ya Hala</li>
+                    </ul>
+                </div>
+                <div class="customer-account">
+                    <h5>CUSTOMER ACCOUNT</h5>
+                    <ul>
+                        <li>Orders</li>
+                        <li>Gifts</li>
+                        <li>Invite Friends</li>
+                        <li>Favourites</li>
+                        <li>Addresses</li>
+                        <li>My Loyalty</li>
+                        <li>Zwara Credits</li>
+                    </ul>
+                </div>
+                <div class="help-support">
+                    <h5>HELP & SUPPORT</h5>
+                    <ul>
+                        <li>About Us</li>
+                        <li>Faq's</li>
+                        <li>How to Order</li>
+                        <li>Privacy Statement</li>
+                        <li>Terms of Use</li>
+                        <li>Data Deletion Policy</li>
+                        <li>Feedback</li>
+                    </ul>
+                </div>
+                <div class="contact-us">
+                    <h5>CONTACT US</h5>
+                    <ul class="contact-list">
+                        <li>Whatsapp Us: +965 869878955</li>
+                        <li>Call Us On: +965 869878955</li>
+                        <li>Email: @zwara.com</li>
+                        <li>8:00 AM to 8:00 PM, 365 days</li>
+                    </ul>
+                    <br>
+                    <br>
+                    <p class="contact-text">Should you encounter any bugs,<br>dalayed deliveries,or other<br> problems
+                        on the website</p>
+                </div>
+                <div class="download-app">
+                    <h5>DOWNLOAD THE APP</h5>
+                    <img class="footer-img" src="img/download-application-button-apple-app-store-free-vector 1 1.png"
+                        alt="">
+                    <div>
+                        <img class="footer-img" src="img/google-play-download-android-app-logo-svgrepo-com 1.png"
+                            alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="divider"></div>
+            <div class="logo-1">
+                <div>
+                    <img src="img/Group 119118.png" alt="">
+
+                </div>
+                <div>
+                    <img src="img/Group 1321316068.png" alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+    <script>
+
+        function toggleMenu() {
+
+            const menu = document.getElementById('mobileNav');
+
+            menu.style.display = (menu.style.display === "flex") ? "none" : "flex";
+
+        }
+    </script>
+
+</body>
+
+</html>

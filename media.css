@@ -1,0 +1,219 @@
+ /* Responsive */
+
+   @media screen and (min-width: 1440px) {
+    .card-container {
+      justify-content: center;
+    }
+    .dice-container {
+      justify-content: center;
+    }
+    .our-inlfu {
+      justify-content: center;
+    }
+    .mobile-container {
+      height: 34vh;
+    }
+    .card-section h3 {
+      margin-left: 72px;
+    }
+    .deal h3{
+      margin-left: 72px;
+    }
+    .influencers h3{
+      margin-left: 72px;
+    }
+    .deal {
+      height: 42vh;
+    }
+    .z-image {
+      margin-top: 284px;
+    }
+    .influencers{
+      height: 42vh;
+    }
+  } 
+
+  /* @media screen and (max-width: 1024px) {
+    .wishlist img {
+      margin-left: 150px;
+    }
+    .dice-img img {
+      width: 280px;
+    }
+    .influencer-img img {
+    width: 160px;
+}
+.mobile {
+    width: 344px;
+    height: 468px;
+  }
+  } */
+
+ @media screen and (max-width: 768px) {
+   .frame-content {
+     justify-content: center;
+   }
+   .gog-ip img {
+    width: 150px !important;
+   }
+   .mobile-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+   }
+
+   .group-content {
+     
+     width: 100% !important;
+   }
+   .dice-container {
+    justify-content: center;
+   }
+   .our-inlfu {
+    justify-content: center;
+   }
+ }
+
+ @media screen and (min-width: 320px) and (max-width: 768px) {
+
+   nav {
+
+     display: none;
+
+   }
+
+   .hamburger {
+
+     display: flex;
+
+   }
+
+   .hero h1 {
+
+     font-size: 24px;
+
+   }
+
+   .food-left,
+   .food-right {
+
+     display: none;
+
+   }
+
+   .search-bar input {
+
+     width: 100%;
+
+   }
+   
+
+   .slid-content {
+     flex-wrap: wrap;
+   }
+
+   .frame-content {
+     flex-wrap: wrap;
+   }
+
+   .influencers h3 {
+     text-align: center;
+   }
+
+   .group-content {
+     flex-wrap: wrap;
+     justify-content: center;
+     width: 112%;
+   }
+
+   .card-section {
+     padding: 0px;
+   }
+
+   .card-section h3 {
+     text-align: center;
+     margin-top: 25px;
+   }
+
+   .card-container {
+     flex-wrap: wrap;
+     justify-content: center;
+   }
+
+   .card {
+     margin-top: 20px;
+
+   }
+
+   .influencers {
+     height: auto;
+   }
+
+   .our-inlfu {
+     flex-wrap: wrap;
+   }
+
+   .dice-container {
+     flex-wrap: wrap;
+   }
+
+   .dice-img img {
+     width: 100%;
+   }
+
+   .logo-1 {
+     flex-wrap: wrap;
+   }
+
+   .mobile-section {
+     padding: 0px;
+   }
+
+   .deal {
+     height: auto;
+     margin-top: 25px;
+   }
+
+   .mobile-image {
+     display: none;
+   }
+
+   .deal h3 {
+     text-align: center;
+   }
+
+   .abs-img img {
+     top: 111px;
+   }
+
+   .slid-text h5 {
+     text-align: center;
+   }
+
+   .gog-ip {
+     flex-wrap: wrap;
+     /* justify-content: center; */
+     gap: 15px;
+   }
+
+   .mobile-container {
+     height: auto;
+   }
+
+   .google {
+     margin-left: 0px;
+   }
+
+   .gog-ip img {
+     width: 100%;
+   }
+
+   .mobile-container {
+     flex-wrap: wrap;
+   }
+
+   .tabs {
+     flex-direction: column;
+   }
+
+
+ }
